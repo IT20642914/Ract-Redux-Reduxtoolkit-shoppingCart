@@ -1,0 +1,10 @@
+/* Navbar */
+.navbar-nav a{
+    font-size:18px; 
+  }
+  main{
+    margin-top: 3rem;
+    position: relative;
+    min-height: 75vh;
+    margin-bottom: 12rem; 
+  }
