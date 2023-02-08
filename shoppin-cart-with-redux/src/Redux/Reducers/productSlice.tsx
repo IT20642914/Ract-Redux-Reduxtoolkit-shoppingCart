@@ -24,5 +24,6 @@ const initialState :PorductState= {
     },
   });
   
+  
   export const { getProductList } = productSlice.actions;
   export default productSlice.reducer;
