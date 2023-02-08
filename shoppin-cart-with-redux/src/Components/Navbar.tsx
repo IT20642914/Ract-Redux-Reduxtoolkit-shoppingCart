@@ -59,16 +59,18 @@ const Header = () => {
                 store <span className="sr-only">(current)</span>
               </a>
             </li>
+            <li className="nav-item active">
+              <a className="nav-link" href="/counter">
+                Counter EX <span className="sr-only">(current)</span>
+              </a>
+            </li>
 
           </ul>
           <div className="buttons mx-auto">
 
             <ul>
-     
-              
                  < NavLink to="/cart" className="btn btn-outline-light mx-1">
-                <i className="fa fa-shopping-cart mx-2" aria-hidden="true"></i> Cart
-         
+                <i className="fa fa-shopping-cart mx-2" aria-hidden="true"></i> Cart    
               </NavLink>
 
 
