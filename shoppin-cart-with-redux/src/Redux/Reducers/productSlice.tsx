@@ -19,7 +19,6 @@ const initialState :PorductState= {
     reducers: {
       getProductList: (state, action: PayloadAction<Product[]>) => {
         state.products=action.payload;
-       
       }
      
     },
