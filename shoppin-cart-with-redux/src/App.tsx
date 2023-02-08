@@ -3,11 +3,12 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom';
 
 import './App.css';
 import Home from './Pages/Home';
+import Header from './Components/Navbar';
 function App() {
   return (
     <BrowserRouter>
 
-    {/* <NavBar/> */}
+    <Header/>
     <main>
      
         <Routes>
