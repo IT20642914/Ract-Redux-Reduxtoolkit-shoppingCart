@@ -33,7 +33,7 @@ const Header = () => {
     <nav className="navbar navbar-inverse navbar-fixed-top  navbar-expand-lg navbar-dark bg-dark py-3 shadow-sm">
       <div className="container-fluid">
         <a className="navbar-brand fw-bold fs-4" href="/">
-          REDUX
+          REDUX-TOOLKIT- FAKE-STORE
         </a>
         <button
           className="navbar-toggler"
@@ -64,23 +64,13 @@ const Header = () => {
           <div className="buttons mx-auto">
 
             <ul>
-             <NavLink to="/login" className="btn btn-outline-light mx-1">
-                <i className="fa fa-sign-in mx-2 " aria-hidden="true"></i>Login
-              </NavLink>
-
-
-            <NavLink to="/signup" className="btn btn-outline-light mx-1">
-                <i className="fa fa-user-plus mx-2" aria-hidden="true"></i>{" "}
-                Register{" "}
-              </NavLink>
-                 <NavLink to="/cart" className="btn btn-outline-light mx-1">
+     
+              
+                 < NavLink to="/cart" className="btn btn-outline-light mx-1">
                 <i className="fa fa-shopping-cart mx-2" aria-hidden="true"></i> Cart
          
               </NavLink>
 
-              <NavLink to="/profile" className="btn btn-outline-light mx-2">
-                <i className="fa fa-user mx-2 " aria-hidden="true"></i>
-              </NavLink>
 
 
             </ul>
